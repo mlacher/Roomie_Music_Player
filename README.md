@@ -38,6 +38,7 @@ First prototype using colored 3D printing material (didn´t turn out to be nice)
 | A3144 Hall Sensor      | 2        | For rotation detection                  | [Amazon](https://www.amazon.de/dp/B0CZ6QXMZ2?ref=ppx_yo2ov_dt_b_fed_asin_title )                           |
 
 > 👉 Full parts list available at [`/docs/BOM.md`](./docs/BOM.md)
+> 👉 For more details and instruction see [instruction](Roomie_instructions.pdf)
 
 ---
 
