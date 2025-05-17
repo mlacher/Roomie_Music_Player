@@ -1,0 +1,18 @@
+2025-05-17 21:55:30,279 [WARNING]: Fehler beim Lesen des PN532 (Versuch 1/3): Received unexpected command response!
+2025-05-17 21:55:32,289 [INFO]: Wiedergabe pausiert.
+2025-05-17 21:55:32,902 [WARNING]: Fehler beim Lesen des PN532 (Versuch 1/3): Response frame preamble does not contain 0x00FF!
+2025-05-17 21:55:36,961 [WARNING]: Fehler beim Lesen des PN532 (Versuch 1/3): Response frame preamble does not contain 0x00FF!
+2025-05-17 21:55:39,779 [INFO]: Neue UID erkannt: 0414FF95C42A81
+2025-05-17 21:55:40,026 [INFO]: Neue UID erkannt: 0414FF95C42A81
+2025-05-17 21:55:40,071 [INFO]: Starte Shuffle-Track: spotify:track:7GGhB4vz7vFLeyG2fx7QoJ
+2025-05-17 21:55:40,287 [INFO]: Starte Shuffle-Track: spotify:track:4ryM23tAF7ibsJoryj5sz8
+2025-05-17 21:55:42,638 [INFO]: Wiedergabe pausiert.
+2025-05-17 21:55:42,921 [INFO]: Wiedergabe pausiert.
+2025-05-17 21:55:42,930 [WARNING]: Fehler beim Lesen des PN532 (Versuch 1/3): Response frame preamble does not contain 0x00FF!
+2025-05-17 21:55:45,180 [INFO]: Programm beendet.
+2025-05-17 22:00:04,278 [WARNING]: Fehler beim Lesen des PN532 (Versuch 1/3): Received unexpected command response!
+2025-05-17 22:00:06,132 [INFO]: Wiedergabe pausiert.
+2025-05-17 22:00:07,185 [INFO]: Programm beendet.
+2025-05-17 22:33:39,616 [INFO]: Neue UID erkannt: 0414FF95C42A81
+2025-05-17 22:33:39,972 [INFO]: Starte Shuffle-Track: spotify:track:0jYhURSQbmVHhVKTO864JH
+2025-05-17 22:33:42,548 [INFO]: Wiedergabe pausiert.

@@ -1,0 +1,24 @@
+
+## automatic script run: 
+
+starts python code without vsc and logs error + prints:
+nohup ~/PythonCodes/venv/bin/python ~/PythonCodes/code/main.py > log.txt 2>&1 &
+
+read the log:
+cat log.txt
+
+## github
+wenn master und branch divergieren aber beide beibehalten werden sollen:
+git pull --rebase
+
+## python
+pytest -s -v
+
+Aktiviere venv
+source venv/bin/activate
+
+
+## raspotify
+sudo systemctl restart raspotify
+
+

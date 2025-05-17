@@ -1,0 +1,14 @@
+{
+    "spotify": {
+        "client_id": "your_client_id_here",
+        "client_secret": "your_client_secret_here",
+        "redirect_uri": "your_redirect_uri_here",
+        "scope": "your_scope_here"
+    },
+    "database": {
+        "host": "your_host_here",
+        "user": "your_user_here",
+        "password": "your_password_here",
+        "database": "your_database_here"
+    }
+}
