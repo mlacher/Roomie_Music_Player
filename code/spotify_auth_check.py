@@ -3,14 +3,14 @@ from spotipy.oauth2 import SpotifyOAuth
 import json
 from datetime import datetime
 import time
+from config import load_config
+
 
 # Funktion zum Einlesen der Konfiguration aus der config.json
-def load_config():
-    with open("config.json") as config_file:
-        return json.load(config_file)
+config = load_config()
 
 # Konfiguration laden
-config = load_config()
+
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=config["client_id"],

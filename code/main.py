@@ -18,6 +18,7 @@ logging.basicConfig(
 
 def main():
     config = load_config()
+    print(config["database"])
     db_connection = init_db(config["database"])
     devices = devices_db(db_connection)
     songs = songs_db(db_connection)

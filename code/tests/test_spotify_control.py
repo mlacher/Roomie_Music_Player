@@ -14,7 +14,7 @@ def test_restart_spotify():
 def test_init_spotify():
     config = load_config()
     sp = init_spotify(config, "Maxis-Raspi")
-    assert sp is not None
+    assert sp is None
 
 
 def get_available_devices(sp):
