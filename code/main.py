@@ -31,6 +31,8 @@ def main():
     last_uid = None
     last_nfc_check = time.time()
     last_direction_check = time.time()
+    last_auto_check = time.time()
+
 
     try:
         while True:
@@ -67,10 +69,13 @@ def main():
                         time.sleep(2)
                     else:
                         logging.info("Gleiches Tag wie vorher – ignoriere.")
-                        music_control(sp, devices[4], songs[song_id[0]], "auto")
+                        if time.time() - last_auto_check >= 5:
+                            music_control(sp, devices[4], songs[song_id[0]], "auto")
+                            last_auto_check = time.time()
                 else:
-                    last_uid = None
-                    music_control(sp, devices[4], None, "pause")
+                    if last_uid is not None:
+                        music_control(sp, devices[4], None, "pause")
+                        last_uid = None
 
     except KeyboardInterrupt:
         logging.info("Programm beendet.")
